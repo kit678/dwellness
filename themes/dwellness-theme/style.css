@@ -1,0 +1,40 @@
+/*
+Theme Name: "dwellness-theme"
+Theme URI: Theme website URL
+Author: Theme author
+Author URI: Author's website URL
+Description: Theme description
+Version: Theme version
+License: Theme license
+License URI: License URL
+Text Domain: Text domain
+Tags: Theme tags
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.masonry {
+  column-count: 5;
+  column-gap: 1em;
+  max-width: 90%;
+  margin: auto;
+  padding: 1em;
+}
+
+.item {
+  display: inline-block;
+  background: #ddd;
+  padding: 1em;
+  margin: 0 0 1em;
+  width: 100%;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.8);
+}
+
+.item img {
+  width: 100%;
+}
